@@ -1,0 +1,206 @@
+﻿<UserControl x:Class="_FestivalManager.View.HomePage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Width="1114.089" Height="808.955">
+    <Grid Margin="0,0,0,10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="619*"/>
+            <ColumnDefinition Width="55*"/>
+            <ColumnDefinition Width="440*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl HorizontalAlignment="Left" Height="749" Margin="-8,0,-1,0"  VerticalAlignment="Top" Width="1123" Background="#FFA8432D" Grid.ColumnSpan="3">
+            <TabItem Header="Info" Margin="0,0,-1,0">
+                <Grid Margin="0,-101,0,88">
+
+                    <Label Content="Festivalnaam:" HorizontalAlignment="Left" Margin="147,423,0,0" VerticalAlignment="Top" Width="115" FontSize="16" Height="31" Foreground="White"/>
+                    <Label Content="Begin datum:" HorizontalAlignment="Left" Margin="147,476,0,0" VerticalAlignment="Top" Width="114" FontSize="16" Height="31" Foreground="White"/>
+                    <Label Content="Locatie:" HorizontalAlignment="Left" Margin="147,528,0,0" VerticalAlignment="Top" Width="115" FontSize="16" Height="31" Foreground="White"/>
+                    <DatePicker x:Name="dtpkBeginDatum" HorizontalAlignment="Left" Margin="281,476,0,0" VerticalAlignment="Top" Height="31" Width="176" Text="{Binding FestivalList.StartDate}"/>
+                    <TextBox x:Name="txtLocatie" HorizontalAlignment="Left" Height="32" Margin="282,527,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="528" Text="{Binding FestivalList.Location}"/>
+                    <Button x:Name="btnInfoBewerken" Command="{Binding EdiFestivalCommand}" Content="Bewerken" HorizontalAlignment="Left" Margin="281,577,0,0" VerticalAlignment="Top" Width="186" RenderTransformOrigin="0.533,0.091" Height="37"/>
+                    <Label Content="Eind datum:" HorizontalAlignment="Left" Margin="513,476,0,0" VerticalAlignment="Top" Width="116" FontSize="16" Height="31" Foreground="White"/>
+                    <DatePicker x:Name="dtpkEindDatum" HorizontalAlignment="Left" Margin="634,476,0,0" VerticalAlignment="Top" Height="31" Width="176" Text="{Binding FestivalList.EndDate}"/>
+                    <Label Content="{Binding FestivalList.Name}" HorizontalAlignment="Left" Margin="147,146,0,0" VerticalAlignment="Top" Width="370" FontSize="48" Height="80" Foreground="White"/>
+                    <Label Content="{Binding FestivalList.StartDate }" HorizontalAlignment="Left" Margin="147,246,0,0" VerticalAlignment="Top" Width="146" FontSize="28" Height="74" Foreground="White"/>
+                    <Label Content="{Binding FestivalList.EndDate}" HorizontalAlignment="Left" Margin="334,246,0,0" VerticalAlignment="Top" Width="183" FontSize="28" Height="74" Foreground="White"/>
+                    <TextBox x:Name="txtName" Text="{Binding FestivalList.Name }" HorizontalAlignment="Left" Height="32" Margin="282,422,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175"/>
+                    <Label Content="-" HorizontalAlignment="Left" Margin="298,246,0,0" VerticalAlignment="Top" Width="36" FontSize="28" Height="74" Foreground="White"/>
+                    <Label Content="{Binding FestivalList.Location}" HorizontalAlignment="Left" Margin="147,320,0,0" VerticalAlignment="Top" Width="320" FontSize="28" Height="50" Foreground="White"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Line-up" Margin="-5,0,1,0">
+                <Grid Margin="0,3,0,-3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="111*"/>
+                        <RowDefinition Height="86*"/>
+                        <RowDefinition Height="267*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition Width="32*"/>
+                        <ColumnDefinition Width="0*"/>
+                        <ColumnDefinition Width="99*"/>
+                        <ColumnDefinition Width="85*"/>
+                        <ColumnDefinition Width="218*"/>
+                        <ColumnDefinition Width="217*"/>
+                    </Grid.ColumnDefinitions>
+                    <ListBox x:Name="lstPodia" SelectedItem="{Binding NewPodium }" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="364" Grid.ColumnSpan="5" Margin="0,62,0,0" ItemsSource="{Binding PodiumList}" DisplayMemberPath="Name" />
+                    <Label Content="Naam:" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="16" Margin="119,25,0,0" Grid.Column="5" Grid.Row="2" Width="70"/>
+                    <Button x:Name="btnPodiumToevoegen" Command="{Binding SaveStageCommand}" Content="Podium Toevoegen" HorizontalAlignment="Left" VerticalAlignment="Top" Width="364" Height="39" Margin="0,39,0,0" Grid.Row="1" Grid.ColumnSpan="5"/>
+                    <Button x:Name="btnArtiestToevoegen" Visibility="{Binding NewVis }" Content="Artiest Toevoegen" Command="{Binding addBandCommand}" Grid.Column="5" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Width="226" Height="50" Margin="196,208,0,0" Grid.ColumnSpan="2"/>
+                    <Label Content="Podia:" HorizontalAlignment="Left"  VerticalAlignment="Top" FontSize="16" Margin="0,27,0,0" Foreground="White" Height="30" Width="55" Grid.Column="1"/>
+                    <DataGrid Margin="8,62,0,0" ItemsSource="{Binding GefilterdeBands}" SelectedItem="{Binding NewBand}" AutoGenerateColumns="False" Grid.RowSpan="2" Grid.Column="5" Grid.ColumnSpan="2">
+
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Van" Width="76" Binding="{Binding Lineup.From}"/>
+                            <DataGridTextColumn Header="Tot" Width="76" Binding="{Binding Lineup.Until}"/>
+                            <DataGridTextColumn Header="Artiest" Width="76" Binding="{Binding Name}"/>
+                            <DataGridTextColumn Header="Genre(s)" Width="76" Binding="{Binding Genre}"/>
+                            <DataGridTextColumn Header="Stage" Width="130" Binding="{Binding Lineup.Podium.Name}"/>
+                            <DataGridTextColumn Header="Info" Width="76" Binding="{Binding Description}"/>
+                            <DataGridTextColumn Header="Facebook/twitter" Width="130" Binding="{Binding Facebook}"/>
+                            <DataGridTextColumn Header="Twitter" Width="130" Binding="{Binding Twitter}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Label Content="Genre:" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="16" Margin="114,98,0,0" Grid.Column="6" Grid.Row="2" Width="66"/>
+                    <Label Content="Info:" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="16" Margin="136,103,0,0" Grid.Column="5" Grid.Row="2" Width="70"/>
+                    <Label Content="Facebook:" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="16" Margin="101,56,0,0" Grid.Column="5" Grid.Row="2" Width="88" RenderTransformOrigin="0.48,0.262"/>
+                    <TextBox x:Name="txtArtiestNaam" Text="{Binding NewBand.Name}" HorizontalAlignment="Left" Height="25" Margin="196,23,0,0" TextWrapping="Wrap" Width="226" VerticalAlignment="Top" Grid.Column="5" Grid.Row="2" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtFacebook" Text="{Binding NewBand.Facebook}" HorizontalAlignment="Left" Height="25" Margin="196,60,0,0" TextWrapping="Wrap" Width="226" VerticalAlignment="Top" Grid.Column="5" Grid.Row="2" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtInfo" Text="{Binding NewBand.Description}" HorizontalAlignment="Left" Height="106" Margin="196,97,0,0" TextWrapping="Wrap" Width="226" VerticalAlignment="Top" Grid.Column="5" Grid.Row="2" Grid.ColumnSpan="2"/>
+                    <ComboBox x:Name="cboGenre" HorizontalAlignment="Left" SelectedItem="{Binding NewBand.Genre}" ItemsSource="{Binding GenreList}" Height="32" Margin="185,97,0,0" Width="176" VerticalAlignment="Top" Grid.Column="6" Grid.Row="2"/>
+                    <Label Content="Uur:" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="16" Margin="114,23,0,0" Grid.Column="6" Grid.Row="2" Width="42"/>
+                    <TextBox x:Name="txtStartuur" Text="{Binding NewLineUp.From}" HorizontalAlignment="Left" Height="26" Margin="185,26,0,0" TextWrapping="Wrap" Width="64" VerticalAlignment="Top" Grid.Column="6" Grid.Row="2"/>
+                    <TextBox x:Name="txtEinduur" Text="{Binding NewLineUp.Until}" HorizontalAlignment="Left" Height="28" Margin="284,23,0,0" TextWrapping="Wrap" Width="77" VerticalAlignment="Top" Grid.Column="6" Grid.Row="2"/>
+                    <Label Content="-" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="16" Margin="254,23,0,0" Grid.Column="6" Grid.Row="2" Width="25"/>
+                    <Label Content="Podium:" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="16" Margin="114,141,0,0" Grid.Column="6" Grid.Row="2" Width="66"/>
+                    <ComboBox x:Name="cboPodium" SelectedItem="{Binding NewLineUp.Podium}" ItemsSource="{Binding PodiumList}" DisplayMemberPath="Name" HorizontalAlignment="Left" Height="32" Margin="185,140,0,0" Width="176" VerticalAlignment="Top" Grid.Column="6" Grid.Row="2"/>
+                    <Label Content="Podium:" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="16" Width="102" Grid.ColumnSpan="3" Grid.Row="1" Grid.Column="1" Margin="0,8,0,0"/>
+                    <TextBox x:Name="txtPodiumnaam" Text="{Binding NewPodium.Name, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="25" Margin="47,9,0,0" TextWrapping="Wrap" Width="255" VerticalAlignment="Top" Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="1"/>
+                    <Button x:Name="btnPodiumBewerken" Command="{Binding EditStageCommand}" Content="Podium Bewerken" HorizontalAlignment="Left" VerticalAlignment="Top" Width="364" Height="39" Margin="0,83,0,0" Grid.Row="1" Grid.ColumnSpan="5" RenderTransformOrigin="0.602,-1.01"/>
+                    <Label Content="Twitter:" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="16" Margin="114,54,0,0" Grid.Column="6" Grid.Row="2" Width="66" RenderTransformOrigin="0.48,0.262"/>
+                    <TextBox x:Name="txtTwitter" Text="{Binding NewBand.Twitter}" HorizontalAlignment="Left" Height="25" Margin="185,60,0,0" TextWrapping="Wrap" Width="176" VerticalAlignment="Top" Grid.Column="6" Grid.Row="2"/>
+                    <Button x:Name="btnGenreToevoegen"  Command="{Binding AddGenreCommand}" Content="Genre Toevoegen" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="354" Height="51" Margin="5,175,0,0" Grid.Row="2" Grid.ColumnSpan="4"/>
+                    <Label Content="Genre:" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="16" Margin="10,134,0,0" Grid.Column="1" Grid.Row="2" Width="70" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="txtAddGenre" Text="{Binding NewGenre.Name, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="25" Margin="47,140,0,0" TextWrapping="Wrap" Width="255" VerticalAlignment="Top" Grid.Column="3" Grid.Row="2" Grid.ColumnSpan="2"/>
+                    <ListBox x:Name="lstGenres" SelectedItem="{Binding NewGenre}" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="352" Grid.ColumnSpan="4" Margin="5,29,0,0" ItemsSource="{Binding GenreList}" DisplayMemberPath="Name" Grid.Column="1" Grid.Row="2" />
+                    <Button x:Name="btnGenreWijzigen"  Command="{Binding EditGenreCommand}" Content="Genre Wijzigen" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="354" Height="51" Margin="5,231,0,0" Grid.Row="2" Grid.ColumnSpan="4"/>
+                    <Button x:Name="btnArtiestBewerken" Visibility="{Binding EditVis }" Content="Artiest Wijzigen" Command="{Binding EditBandCommand}" Grid.Column="5" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Width="226" Height="50" Margin="196,263,0,0" Grid.ColumnSpan="2"/>
+                    <Button x:Name="btnArtiestVerwijderen" Visibility="{Binding EditVis }" Content="Artiest Verwijderen" Command="{Binding DeleteBandCommand}" Grid.Column="5" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Width="226" Height="50" Margin="196,318,0,0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtSearchBand" HorizontalAlignment="Left" Height="25" Margin="355,32,0,0" TextWrapping="Wrap" Width="255" VerticalAlignment="Top" Grid.Column="5" Grid.ColumnSpan="2"/>
+                    <Button x:Name="btnSearchBand" Command="{Binding SearchBandCommand}" CommandParameter="{Binding ElementName=txtSearchBand, Path=Text}" Content="Zoek" HorizontalAlignment="Left" VerticalAlignment="Top" Width="133" Height="25" Margin="238,32,0,0" Grid.Column="6"/>
+                    <Label Content="Artiesten + Line up:" HorizontalAlignment="Left"  VerticalAlignment="Top" FontSize="16" Margin="10,27,0,0" Foreground="White" Height="30" Width="152" Grid.Column="5"/>
+                </Grid>
+
+            </TabItem>
+            <TabItem Header="Ticketing" HorizontalAlignment="Left" Height="20" VerticalAlignment="Bottom" Width="70" Margin="-5,0,0,0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="66*"/>
+                        <ColumnDefinition Width="9*"/>
+                        <ColumnDefinition Width="155*"/>
+                        <ColumnDefinition Width="230*"/>
+                        <ColumnDefinition Width="35*"/>
+                        <ColumnDefinition Width="194*"/>
+                    </Grid.ColumnDefinitions>
+                    <ComboBox x:Name="cboTicketDag" HorizontalAlignment="Left" Margin="0,39,0,0" VerticalAlignment="Top" Width="219" Height="29.96" Grid.ColumnSpan="3" ItemsSource="{Binding TicketTypeList}" SelectedItem="{Binding SelectedTicketType}" DisplayMemberPath="Name" FontSize="14" SelectedIndex="0">
+
+                    </ComboBox>
+                    <TextBox x:Name="txtTicketKostprijs" Text="{Binding SelectedTicketType.Price}"  Grid.Column="5" HorizontalAlignment="Left" Height="30" Margin="65,404,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"/>
+                    <Label Content="€" Grid.Column="5" HorizontalAlignment="Left" Margin="46,403,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.186,0.504" FontSize="16" Foreground="White"/>
+                    <Label Content="Kostprijs:" Grid.Column="3" HorizontalAlignment="Left" Margin="195,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.186,0.504" FontSize="16" Width="84" Foreground="White"/>
+                    <Label Content="Aantal:" Grid.Column="5" HorizontalAlignment="Left" Margin="175,404,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.186,0.504" FontSize="16" Width="65" Foreground="White"/>
+
+                    <Label Content="Bezoekers:" HorizontalAlignment="Left" Margin="0,138,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.186,0.504" FontSize="16" Width="83.627" Grid.ColumnSpan="3" Foreground="White"/>
+
+                    <DataGrid Margin="0,174,357,95" Grid.ColumnSpan="4" ItemsSource="{Binding TicketList}" SelectedItem="{Binding NewTicket, Mode= TwoWay}" AutoGenerateColumns="False" >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Bezoeker naam" Width="92" Binding="{Binding Ticketholder}"/>
+                            <DataGridTextColumn Header="E-mail" Width="135" Binding="{Binding TicketholderEmail}"/>
+                            <DataGridTextColumn Header="Ticket type" Width="85" Binding="{Binding TicketType.Name}"/>
+                            <DataGridTextColumn Header="Hoeveelheid" Width="76" Binding="{Binding Amount}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button x:Name="btnVoegToeBezoeker" Command="{Binding SaveTicketCommand}" Content="Voeg ticket toe" HorizontalAlignment="Left" Margin="21,470,0,0" VerticalAlignment="Top" Width="342" Height="35" Grid.Column="3"/>
+                    <Button x:Name="btnBewerkBezoeker" Command="{Binding EditTicketCommand}" Content="Bewerk ticket" HorizontalAlignment="Left" Margin="21,510,0,0" VerticalAlignment="Top" Width="342" Height="35" Grid.Column="3"/>
+                    <Button x:Name="btnVerwijderBezoeker" Content="Verwijder ticket" HorizontalAlignment="Left" Margin="21,550,0,0" VerticalAlignment="Top" Width="342" Height="35" Grid.Column="3"/>
+                    <Label Content="Type ticket" HorizontalAlignment="Left" Margin="3,4,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.186,0.504" FontSize="16" Width="152" Grid.ColumnSpan="3" Foreground="White"/>
+                    <Button x:Name="btnNewTicket" Content="Nieuw ticket" Command="{Binding addTicketTypeCommand}" HorizontalAlignment="Left" Margin="5,470,0,0" VerticalAlignment="Top" Width="355" Grid.ColumnSpan="2" Height="35" Grid.Column="4"/>
+                    <TextBox x:Name="txtTicketsBeschikbaar" Text="{Binding SelectedTicketType.AvailableTickets}" Grid.Column="5" HorizontalAlignment="Left" Height="30" Margin="243,405,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"/>
+                    <Label Content="Tickets beschikbaar:" Grid.Column="2" HorizontalAlignment="Left" Margin="183,11,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.186,0.504" FontSize="16" Width="152" Foreground="White" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtTicketNaam" Text="{Binding SelectedTicketType.Name}" Grid.Column="5" HorizontalAlignment="Left" Height="30" Margin="66,354,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237"/>
+                    <Label Content="Kostprijs:" Grid.Column="4" HorizontalAlignment="Left" Margin="0,403,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.186,0.504" FontSize="16" Width="84" Foreground="White" Grid.ColumnSpan="2"/>
+                    <Label Content="Ticket naam:" Grid.Column="4" HorizontalAlignment="Left" Margin="0,354,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.186,0.504" FontSize="16" Width="108" Foreground="White" Grid.ColumnSpan="2"/>
+                    <Label Content="{Binding ElementName=cboTicketDag, Path=SelectedItem.AvailableTickets}" Grid.Column="2" HorizontalAlignment="Left" Margin="183,39,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.186,0.504" FontSize="16" Width="136" Foreground="White" Height="31" Grid.ColumnSpan="2"/>
+                    <Label Content="{Binding ElementName=cboTicketDag, Path=SelectedItem.Price}" Grid.Column="3" HorizontalAlignment="Left" Margin="195,39,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.186,0.504" FontSize="16" Width="84" Foreground="White" Height="31"/>
+                    <Label Content="€" Grid.Column="3" HorizontalAlignment="Left" Margin="158,39,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.386,0.568" FontSize="16" Foreground="White"/>
+                    <Button x:Name="btnSaveTicket" Command="{Binding EditicketTypeCommand}" Content="Wijzig ticket" HorizontalAlignment="Left" Margin="5,510,0,0" VerticalAlignment="Top" Width="355" Grid.ColumnSpan="2" Height="35" Grid.Column="4"/>
+                    <TextBox x:Name="txtBezoekerNaam" Text="{Binding NewTicket.Ticketholder}" Grid.Column="3" HorizontalAlignment="Left" Height="30" Margin="126,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237"/>
+                    <Label Content="Naam:" Grid.Column="3" HorizontalAlignment="Left" Margin="42,250,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.186,0.504" FontSize="16" Width="84" Foreground="White"/>
+                    <Label Content="E-Mail:" Grid.Column="3" HorizontalAlignment="Left" Margin="42,303,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.186,0.504" FontSize="16" Width="84" Foreground="White"/>
+                    <Label Content="Ticket type:" Grid.Column="3" HorizontalAlignment="Left" Margin="26,354,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.186,0.504" FontSize="16" Width="100" Foreground="White"/>
+                    <Label Content="Aantal:" Grid.Column="3" HorizontalAlignment="Left" Margin="26,405,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.186,0.504" FontSize="16" Width="100" Foreground="White"/>
+                    <TextBox x:Name="txtBezoekerEmail" Grid.Column="3" Text="{Binding NewTicket.TicketholderEmail}" HorizontalAlignment="Left" Height="30" Margin="126,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237"/>
+                    <TextBox x:Name="txtBezoekerAantalTickets" Text="{Binding NewTicket.Amount}" Grid.Column="3" HorizontalAlignment="Left" Height="30" Margin="126,406,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237"/>
+                    <ComboBox x:Name="cboTicketDag_Copy" HorizontalAlignment="Left" Margin="126,355,0,0" VerticalAlignment="Top" Width="237" Height="30" ItemsSource="{Binding TicketTypeList}" SelectedItem="{Binding NewTicket.TicketType}" DisplayMemberPath="Name" FontSize="14" SelectedIndex="1" Grid.Column="3"/>
+                    <Label Content="Aantal besteld:" Grid.Column="3" HorizontalAlignment="Left" Margin="321,11,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.186,0.504" FontSize="16" Width="121" Foreground="White" Grid.ColumnSpan="3"/>
+                    <Label Content="{Binding ElementName=cboTicketDag, Path=SelectedItem.AantalBesteld}" Grid.Column="3" HorizontalAlignment="Left" Margin="321,39,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.186,0.504" FontSize="16" Width="99" Foreground="White" Height="31" Grid.ColumnSpan="2"/>
+                    <Button x:Name="btnGenereerWord" Command="{Binding PrintTicketCommand}" Content="Genereer Word" HorizontalAlignment="Left" Margin="3,631,0,0" VerticalAlignment="Top" Width="387" Height="35" Grid.ColumnSpan="4"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="ContactPersonen" HorizontalAlignment="Right" Height="20" VerticalAlignment="Top" Width="114" Margin="-7,0,7,0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="22*"/>
+                        <ColumnDefinition Width="27*"/>
+                        <ColumnDefinition Width="14*"/>
+                        <ColumnDefinition Width="265*"/>
+                        <ColumnDefinition Width="328*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Type contact:" HorizontalAlignment="Left" FontSize="16" Margin="10,16,0,0" VerticalAlignment="Top" Grid.ColumnSpan="4" Foreground="White"/>
+                    <ComboBox x:Name="cboContactType" HorizontalAlignment="Left" Margin="32,10,0,0" VerticalAlignment="Top" Width="223" Height="37" Grid.Column="3" ItemsSource="{Binding ContactTypeList}" SelectedItem="{Binding NewContactType}" DisplayMemberPath="Name" SelectedIndex="0" />
+                    <Button x:Name="btnVoegContactTypeToe"  Command="{Binding AddContactTypeCommand }" Content="ContactType toevoegen" Grid.Column="3" HorizontalAlignment="Left" Margin="32,92,0,0" VerticalAlignment="Top" Width="223" Height="27"/>
+
+                    <DataGrid Margin="0,202,438,45" SelectedItem="{Binding NewContact}" Grid.ColumnSpan="4" AutoGenerateColumns="False"  ItemsSource="{Binding GefilterdeContacts}" Grid.Column="1">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Naam" Width="76" Binding="{Binding Name}"/>
+                            <DataGridTextColumn Header="Bedrijf" Width="76" Binding="{Binding Company}"/>
+                            <DataGridTextColumn Header="Job" Width="76" Binding="{Binding JobRole.Name}"/>
+                            <DataGridTextColumn Header="Stad" Width="130" Binding="{Binding City}"/>
+                            <DataGridTextColumn Header="Email" Width="130" Binding="{Binding Email}"/>
+                            <DataGridTextColumn Header="Nummer" Width="130" Binding="{Binding Phone}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button x:Name="btnVerwijderContact" Command="{Binding DeleteConactCommand}" Content="Contact verwijderen" Grid.Column="4" HorizontalAlignment="Left" Margin="125,472,0,0" VerticalAlignment="Top" Width="304" Height="37"/>
+                    <Button x:Name="btnBewerkContact" Command="{Binding EditConactCommand}" Content="Contact bewereken" Grid.Column="4" HorizontalAlignment="Left" Margin="125,430,0,0" VerticalAlignment="Top" Width="304" Height="37"/>
+                    <Button x:Name="btnVoegContactToe" Content="Contact toevoegen" Command="{Binding AddContactCommand}" Grid.Column="4" HorizontalAlignment="Left" Margin="125,388,0,0" VerticalAlignment="Top" Width="304" Height="37"/>
+                    <Label Content="Naam:" HorizontalAlignment="Left" Margin="125,205,0,0" FontSize="16" VerticalAlignment="Top" Foreground="White" Grid.Column="4"/>
+                    <Label Content="Bedrijf:" FontSize="16" HorizontalAlignment="Left" Margin="125,233,0,0" VerticalAlignment="Top" Foreground="White" Grid.Column="4"/>
+                    <Label Content="Job:" FontSize="16" HorizontalAlignment="Left" Margin="125,267,0,0" VerticalAlignment="Top" Foreground="White" Grid.Column="4" Width="51"/>
+                    <Label Content="Stad:" FontSize="16" HorizontalAlignment="Left" Margin="125,300,0,0" VerticalAlignment="Top" Foreground="White" Grid.Column="4"/>
+                    <Label Content="Nummer:" FontSize="16" HorizontalAlignment="Left" Margin="125,354,0,0" VerticalAlignment="Top" Foreground="White" Grid.Column="4"/>
+                    <TextBox Name="txtContactNaam"  Text="{Binding NewContact.Name}" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" Grid.Column="4" Margin="201,210,0,0"/>
+                    <TextBox x:Name="txtBedrijf" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="{Binding NewContact.Company}" VerticalAlignment="Top" Width="228" Grid.Column="4" Margin="201,238,0,0"/>
+                    <TextBox x:Name="txtStad" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="{Binding NewContact.City}" VerticalAlignment="Top" Width="228" Grid.Column="4" Margin="201,303,0,0"/>
+                    <TextBox x:Name="txtContactNummer" HorizontalAlignment="Left" Height="23"  TextWrapping="Wrap" Text="{Binding NewContact.Phone}" VerticalAlignment="Top" Width="228" Grid.Column="4" Margin="201,360,0,0"/>
+                    <TextBox x:Name="txtContactType" Text="{Binding NewContactType.Name }" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" Grid.Column="3" Margin="32,64,0,0"/>
+                    <ComboBox x:Name="cboContactType_Copy" HorizontalAlignment="Left" Margin="201,266,0,0" VerticalAlignment="Top" Width="228" Height="32" Grid.Column="4" SelectedItem="{Binding NewContact.JobRole}" ItemsSource="{Binding ContactTypeList}" DisplayMemberPath="Name" SelectedIndex="0" />
+                    <Label Content="Type contact:" HorizontalAlignment="Left" Margin="10,56,0,0" FontSize="16" VerticalAlignment="Top" Grid.ColumnSpan="4" Foreground="White" Width="104"/>
+                    <Button x:Name="btnWijzigContactType" Command="{Binding EditConactTypeCommand}" Content="Contact type wijzigen" Grid.Column="3" HorizontalAlignment="Left" Margin="32,124,0,0" VerticalAlignment="Top" Width="223" Height="27"/>
+                    <Label Content="Email:" HorizontalAlignment="Left" FontSize="16" Margin="125,323,0,0" VerticalAlignment="Top" Foreground="White" Grid.Column="4"/>
+                    <TextBox x:Name="txtContactNummer_Copy" HorizontalAlignment="Left" Height="23"  TextWrapping="Wrap" Text="{Binding NewContact.Email}" VerticalAlignment="Top" Width="228" Grid.Column="4" Margin="201,331,0,0"/>
+                    <TextBox x:Name="txtsearch" Text="" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" Margin="256,174,0,0" Grid.ColumnSpan="2" Grid.Column="3"/>
+                    <Button x:Name="btnSearch"  Command="{Binding SearchContactCommand}" CommandParameter="{Binding ElementName=txtsearch, Path=Text}" Content="Zoek" Grid.Column="4" HorizontalAlignment="Left" Margin="27,174,0,0" VerticalAlignment="Top" Width="93" Height="23"/>
+                    <Label Content="Contactpersonen:" HorizontalAlignment="Left" FontSize="16" Margin="0,176,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3" Foreground="White" Grid.Column="1"/>
+
+                </Grid>
+            </TabItem>
+
+
+        </TabControl>
+    </Grid>
+</UserControl>
