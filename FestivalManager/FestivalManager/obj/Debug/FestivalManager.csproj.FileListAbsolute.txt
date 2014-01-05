@@ -1,0 +1,161 @@
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\4Oefening1.exe.config
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\4Oefening1.exe
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\4Oefening1.pdb
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.dll
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.WPF45.dll
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\MySql.Data.dll
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.pdb
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.xml
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.WPF45.pdb
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.WPF45.xml
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\View\Homepage.baml
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\View\SubPage1.baml
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\View\Homepage.g.cs
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\View\MainWindow.g.cs
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\View\SubPage1.g.cs
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\App.g.cs
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\4Oefening1_MarkupCompile.cache
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\4Oefening1_MarkupCompile.lref
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\App.baml
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\View\MainWindow.baml
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\4Oefening1.g.resources
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\FestivalManager.csproj.GenerateResource.Cache
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\4Oefening1.exe
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\4Oefening1.pdb
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\_FestivalManager.Properties.Resources.resources
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\bin\Debug\4Oefening1.exe.config
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\bin\Debug\4Oefening1.exe
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\bin\Debug\4Oefening1.pdb
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.dll
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.WPF45.dll
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\bin\Debug\MySql.Data.dll
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.pdb
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.xml
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.WPF45.pdb
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.WPF45.xml
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\obj\Debug\View\Homepage.baml
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\obj\Debug\View\SubPage1.baml
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\obj\Debug\View\Homepage.g.cs
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\obj\Debug\View\MainWindow.g.cs
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\obj\Debug\View\SubPage1.g.cs
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\obj\Debug\App.g.cs
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\obj\Debug\4Oefening1_MarkupCompile.cache
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\obj\Debug\4Oefening1_MarkupCompile.lref
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\obj\Debug\App.baml
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\obj\Debug\View\MainWindow.baml
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\obj\Debug\4Oefening1.g.resources
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\obj\Debug\_FestivalManager.Properties.Resources.resources
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\obj\Debug\FestivalManager.csproj.GenerateResource.Cache
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\obj\Debug\4Oefening1.exe
+C:\Users\Tim\Desktop\FestivalManager\5Oefening1Bis\obj\Debug\4Oefening1.pdb
+C:\Users\Tim\Desktop\FestivalManager\FestivalManager\bin\Debug\4Oefening1.exe.config
+C:\Users\Tim\Desktop\FestivalManager\FestivalManager\obj\Debug\4Oefening1.exe
+C:\Users\Tim\Desktop\FestivalManager\FestivalManager\obj\Debug\4Oefening1.pdb
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\bin\Debug\4Oefening1.exe.config
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\obj\Debug\4Oefening1.exe
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\obj\Debug\4Oefening1.pdb
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\bin\Debug\4Oefening1.exe
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\bin\Debug\4Oefening1.pdb
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.dll
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.WPF45.dll
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\bin\Debug\MySql.Data.dll
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.pdb
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.xml
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.WPF45.pdb
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.WPF45.xml
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\obj\Debug\View\Homepage.baml
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\obj\Debug\View\SubPage1.baml
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\obj\Debug\View\Homepage.g.cs
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\obj\Debug\View\MainWindow.g.cs
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\obj\Debug\View\SubPage1.g.cs
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\obj\Debug\App.g.cs
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\obj\Debug\4Oefening1_MarkupCompile.cache
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\obj\Debug\4Oefening1_MarkupCompile.lref
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\obj\Debug\App.baml
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\obj\Debug\View\MainWindow.baml
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\obj\Debug\4Oefening1.g.resources
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\obj\Debug\_FestivalManager.Properties.Resources.resources
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\obj\Debug\FestivalManager.csproj.GenerateResource.Cache
+C:\Users\Tim\Documents\GitHub\ProjectBA\FestivalManager\FestivalManager\obj\Debug\FestivalManager.csprojResolveAssemblyReference.cache
+C:\ProjectBA\FestivalManager\FestivalManager\bin\Debug\4Oefening1.exe.config
+C:\ProjectBA\FestivalManager\FestivalManager\obj\Debug\4Oefening1.exe
+C:\ProjectBA\FestivalManager\FestivalManager\obj\Debug\4Oefening1.pdb
+C:\ProjectBA\FestivalManager\FestivalManager\bin\Debug\4Oefening1.exe
+C:\ProjectBA\FestivalManager\FestivalManager\bin\Debug\4Oefening1.pdb
+C:\ProjectBA\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.dll
+C:\ProjectBA\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.WPF45.dll
+C:\ProjectBA\FestivalManager\FestivalManager\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\ProjectBA\FestivalManager\FestivalManager\bin\Debug\MySql.Data.dll
+C:\ProjectBA\FestivalManager\FestivalManager\bin\Debug\System.Windows.Interactivity.dll
+C:\ProjectBA\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.pdb
+C:\ProjectBA\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.xml
+C:\ProjectBA\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.WPF45.pdb
+C:\ProjectBA\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.WPF45.xml
+C:\ProjectBA\FestivalManager\FestivalManager\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\ProjectBA\FestivalManager\FestivalManager\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\ProjectBA\FestivalManager\FestivalManager\bin\Debug\System.Windows.Interactivity.xml
+C:\ProjectBA\FestivalManager\FestivalManager\obj\Debug\FestivalManager.csprojResolveAssemblyReference.cache
+C:\ProjectBA\FestivalManager\FestivalManager\obj\Debug\View\Homepage.baml
+C:\ProjectBA\FestivalManager\FestivalManager\obj\Debug\View\SubPage1.baml
+C:\ProjectBA\FestivalManager\FestivalManager\obj\Debug\View\Homepage.g.cs
+C:\ProjectBA\FestivalManager\FestivalManager\obj\Debug\View\MainWindow.g.cs
+C:\ProjectBA\FestivalManager\FestivalManager\obj\Debug\View\SubPage1.g.cs
+C:\ProjectBA\FestivalManager\FestivalManager\obj\Debug\App.g.cs
+C:\ProjectBA\FestivalManager\FestivalManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\ProjectBA\FestivalManager\FestivalManager\obj\Debug\4Oefening1_MarkupCompile.cache
+C:\ProjectBA\FestivalManager\FestivalManager\obj\Debug\4Oefening1_MarkupCompile.lref
+C:\ProjectBA\FestivalManager\FestivalManager\obj\Debug\App.baml
+C:\ProjectBA\FestivalManager\FestivalManager\obj\Debug\View\MainWindow.baml
+C:\ProjectBA\FestivalManager\FestivalManager\obj\Debug\4Oefening1.g.resources
+C:\ProjectBA\FestivalManager\FestivalManager\obj\Debug\_FestivalManager.Properties.Resources.resources
+C:\ProjectBA\FestivalManager\FestivalManager\obj\Debug\FestivalManager.csproj.GenerateResource.Cache
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\bin\Debug\4Oefening1.exe.config
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\obj\Debug\4Oefening1.exe
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\obj\Debug\4Oefening1.pdb
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\bin\Debug\4Oefening1.exe
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\bin\Debug\4Oefening1.pdb
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.dll
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.WPF45.dll
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\bin\Debug\MySql.Data.dll
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.pdb
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.xml
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.WPF45.pdb
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\bin\Debug\GalaSoft.MvvmLight.WPF45.xml
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\obj\Debug\FestivalManager.csprojResolveAssemblyReference.cache
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\obj\Debug\View\Homepage.baml
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\obj\Debug\View\SubPage1.baml
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\obj\Debug\View\Homepage.g.cs
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\obj\Debug\View\MainWindow.g.cs
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\obj\Debug\View\SubPage1.g.cs
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\obj\Debug\App.g.cs
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\obj\Debug\4Oefening1_MarkupCompile.cache
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\obj\Debug\4Oefening1_MarkupCompile.lref
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\obj\Debug\App.baml
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\obj\Debug\View\MainWindow.baml
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\obj\Debug\4Oefening1.g.resources
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\obj\Debug\_FestivalManager.Properties.Resources.resources
+C:\Users\Tim\Documents\GitHub\FestivalManager\FestivalManager\FestivalManager\obj\Debug\FestivalManager.csproj.GenerateResource.Cache

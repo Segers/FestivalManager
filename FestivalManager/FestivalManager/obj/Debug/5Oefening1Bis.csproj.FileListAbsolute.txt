@@ -1,0 +1,77 @@
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\bin\Debug\4Oefening1.exe.config
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\bin\Debug\4Oefening1.exe
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\bin\Debug\4Oefening1.pdb
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.dll
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.WPF45.dll
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\bin\Debug\System.Windows.Interactivity.dll
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.xml
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.WPF45.xml
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\bin\Debug\System.Windows.Interactivity.xml
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\obj\Debug\5Oefening1Bis.csprojResolveAssemblyReference.cache
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\obj\Debug\View\HomePage.baml
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\obj\Debug\View\SubPage1.baml
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\obj\Debug\View\HomePage.g.cs
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\obj\Debug\View\MainWindow.g.cs
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\obj\Debug\View\SubPage1.g.cs
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\obj\Debug\App.g.cs
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\obj\Debug\4Oefening1_MarkupCompile.cache
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\obj\Debug\4Oefening1_MarkupCompile.lref
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\obj\Debug\View\MainWindow.baml
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\obj\Debug\4Oefening1.g.resources
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\obj\Debug\_5Oefening1Bis.Properties.Resources.resources
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\obj\Debug\5Oefening1Bis.csproj.GenerateResource.Cache
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\obj\Debug\4Oefening1.exe
+D:\PIH\Lessen\2013\Business applications\dinsdagLabo\Week5\5Oefening1Bis\5Oefening1Bis\obj\Debug\4Oefening1.pdb
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\bin\Debug\4Oefening1.exe.config
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\obj\Debug\4Oefening1.exe
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\obj\Debug\4Oefening1.pdb
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\bin\Debug\4Oefening1.exe
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\bin\Debug\4Oefening1.pdb
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\obj\Debug\View\Homepage.baml
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\obj\Debug\View\SubPage1.baml
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\obj\Debug\View\Homepage.g.cs
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\obj\Debug\View\MainWindow.g.cs
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\obj\Debug\View\SubPage1.g.cs
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\obj\Debug\App.g.cs
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\obj\Debug\4Oefening1_MarkupCompile.cache
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\obj\Debug\4Oefening1_MarkupCompile.lref
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\obj\Debug\View\MainWindow.baml
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\obj\Debug\4Oefening1.g.resources
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\obj\Debug\_5Oefening1Bis.Properties.Resources.resources
+C:\Users\Tim\Desktop\5Oefening1Bis\5Oefening1Bis\obj\Debug\5Oefening1Bis.csproj.GenerateResource.Cache
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\4Oefening1.exe.config
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\4Oefening1.exe
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\4Oefening1.pdb
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\View\Homepage.baml
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\View\SubPage1.baml
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\View\Homepage.g.cs
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\View\MainWindow.g.cs
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\View\SubPage1.g.cs
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\App.g.cs
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\4Oefening1_MarkupCompile.cache
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\4Oefening1_MarkupCompile.lref
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\4Oefening1.exe
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\4Oefening1.pdb
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\MySql.Data.dll
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\View\MainWindow.baml
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\4Oefening1.g.resources
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\_5Oefening1Bis.Properties.Resources.resources
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\5Oefening1Bis.csproj.GenerateResource.Cache
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.dll
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.WPF45.dll
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.pdb
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.xml
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.WPF45.pdb
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\GalaSoft.MvvmLight.WPF45.xml
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\App.baml
+C:\Users\Tim\Desktop\5Oefening1Bis - Copy\5Oefening1Bis\obj\Debug\5Oefening1Bis.csprojResolveAssemblyReference.cache
