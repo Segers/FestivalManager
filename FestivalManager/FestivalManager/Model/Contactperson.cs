@@ -52,7 +52,7 @@ namespace Project_MVVM.Model
             return nieuw;
         }
 
-
+        //methode die een contactpersoon toevoegt
         public static int AddContact(Contactperson NewContact)
         {
             DbTransaction trans = null;
